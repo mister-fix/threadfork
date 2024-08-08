@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.3] - 08/08/2024
+
+### Added
+
+- `.github/` folder with a `stale.yml` configuration file for the stale bot to close dormant PR requests, and a `workflows` subdirectory containing the `commitlint.yml` CI workflow to run commitlint.
+
+### Updated
+
+- `README.md` project structure tree to list the `docs/` and `.github/` folders.
+
 ## [0.0.2] - 08/08/2024
 
 ### Added
@@ -33,6 +43,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `.editorconfig` file with IDE level text, code, and file formatting configurations.
 - `.husky` directory with Git pre-commit and commit-msg hooks.
 
-[unreleased]: https://github.com/mister-fix/threadfork/compare/v0.0.2...HEAD
+[unreleased]: https://github.com/mister-fix/threadfork/compare/v0.0.3...HEAD
+[0.0.3]: https://github.com/mister-fix/threadfork/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/mister-fix/threadfork/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/mister-fix/threadfork/releases/tag/v0.0.1
