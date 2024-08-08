@@ -1,12 +1,14 @@
 {
   "name": "threadfork",
   "description": "A comprehensive IT ticket management system designed to streamline the process of reporting, tracking, and resolving IT issues.",
-  "version": "0.0.6",
+  "version": "0.0.7",
+  "type": "commonjs",
   "private": true,
   "author": "@mister-fix <https://github.com/mister-fix/>",
   "license": "GPL-3.0-only",
   "keywords": [],
   "scripts": {
+    "plop": "plop",
     "prepare": "husky || true",
     "lint": "eslint . --ext js,jsx",
     "lint:fix": "eslint . --ext js,jsx --fix",
@@ -22,6 +24,7 @@
     "eslint-plugin-prettier": "5.2.1",
     "eslint-plugin-unused-imports": "^4.1.2",
     "husky": "^9.1.4",
+    "plop": "^4.0.1",
     "prettier": "3.3.3"
   }
 }
