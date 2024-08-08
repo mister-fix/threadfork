@@ -18,6 +18,12 @@ threadfork/
 ├─ .github/
 ├─ .husky/
 ├─ .vscode/
+├─ apps/
+│  ├─ api/
+│  ├─ api-e2e/
+│  ├─ client/
+│  ├─ client-e2e/
+│  ├─ shared/
 ├─ assets/
 ├─ docs/
 ├─ .editorconfig
