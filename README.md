@@ -21,8 +21,12 @@ threadfork/
 ├─ assets/
 ├─ docs/
 ├─ .editorconfig
+├─ .eslintignore
+├─ .eslintrc.js
 ├─ .gitattributes
 ├─ .gitignore
+├─ .prettierignore
+├─ .prettierrc
 ├─ CHANGELOG.md
 ├─ commitlint.config.js
 ├─ LICENSE
