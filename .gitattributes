@@ -1,0 +1,48 @@
+# Ensure consistent line endings for text files across OS
+* text=auto
+
+# Declare text files explicitly to avoid automatic conversion issues
+*.js        text
+*.jsx       text
+*.ts        text
+*.tsx       text
+*.json      text
+*.html      text
+*.css       text
+*.scss      text
+*.sass      text
+*.md        text
+*.yml       text
+*.yaml      text
+*.sh        text
+*.env       text
+*.graphql   text
+
+# Treat binary files properly
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.ico       binary
+*.svg       binary
+*.woff      binary
+*.woff2     binary
+*.ttf       binary
+*.eot       binary
+*.mp4       binary
+*.mp3       binary
+*.zip       binary
+
+# Avoid conflicts with lock files
+package-lock.json -merge
+yarn.lock -merge
+
+# Handle linguist overrides (useful for GitHub language statistics)
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.scss linguist-language=SCSS
+*.sass linguist-language=Sass
+
+# Ignore node_modules from linguist analysis
+**/node_modules/* linguist-vendored
+**/dist/* linguist-vendored
