@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.6] - 08/08/2024
+
+### Added
+
+- `.eslintignore` file with ESLint file and folder ignore patterns.
+- `.eslintrc.js` file with ESLint configurations and options.
+- `.prettierignore` file with Prettier file and folder ignore patterns.
+- `.prettierrc` file with Prettier configurations and options.
+- Linting and formatting commands in the scripts of the `package.json` file.
+
+### Updated
+
+- `README.md` project structure tree to reflect the addition of the ESLint and Prettier configuration files and their respective ignore files.
+
 ## [0.0.5] - 08/08/2024
 
 ### Added
@@ -60,7 +74,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `.editorconfig` file with IDE level text, code, and file formatting configurations.
 - `.husky` directory with Git pre-commit and commit-msg hooks.
 
-[unreleased]: https://github.com/mister-fix/threadfork/compare/v0.0.5...HEAD
+[unreleased]: https://github.com/mister-fix/threadfork/compare/v0.0.6...HEAD
+[0.0.6]: https://github.com/mister-fix/threadfork/compare/v0.0.5...v0.0.6
 [0.0.5]: https://github.com/mister-fix/threadfork/compare/v0.0.4...v0.0.5
 [0.0.4]: https://github.com/mister-fix/threadfork/compare/v0.0.3...v0.0.4
 [0.0.3]: https://github.com/mister-fix/threadfork/compare/v0.0.2...v0.0.3
