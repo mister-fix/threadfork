@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.4] - 08/08/2024
+
+### Added
+
+- `.vscode/` folder containing an `extensions.json` file with a list of recommended VSCode extensions for contributors to have to maintain project consistency.
+- `.vscode/settings.json` ignore pattern in the `.gitignore` file.
+
+### Updated
+
+- `README.md` project structure tree to list the `.vscode/` folder.
+
 ## [0.0.3] - 08/08/2024
 
 ### Added
@@ -43,7 +54,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `.editorconfig` file with IDE level text, code, and file formatting configurations.
 - `.husky` directory with Git pre-commit and commit-msg hooks.
 
-[unreleased]: https://github.com/mister-fix/threadfork/compare/v0.0.3...HEAD
+[unreleased]: https://github.com/mister-fix/threadfork/compare/v0.0.4...HEAD
+[0.0.4]: https://github.com/mister-fix/threadfork/compare/v0.0.3...v0.0.4
 [0.0.3]: https://github.com/mister-fix/threadfork/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/mister-fix/threadfork/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/mister-fix/threadfork/releases/tag/v0.0.1
