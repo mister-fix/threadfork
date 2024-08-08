@@ -15,8 +15,10 @@ Welcome to ThreadFork, a comprehensive IT ticket management system designed to s
 
 ```ASCII
 threadfork/
+├─ .github/
 ├─ .husky/
 ├─ assets/
+├─ docs/
 ├─ .editorconfig
 ├─ .gitattributes
 ├─ .gitignore
