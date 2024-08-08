@@ -17,6 +17,7 @@ Welcome to ThreadFork, a comprehensive IT ticket management system designed to s
 threadfork/
 ├─ .github/
 ├─ .husky/
+├─ .vscode/
 ├─ assets/
 ├─ docs/
 ├─ .editorconfig
