@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.2] - 08/08/2024
+
+### Added
+
+- `docs/` folder containing the code of conduct, security guidelines, contribution guidelines, and pull request template documents.
+
+### Updated
+
+- `.husky/pre-commit` file to run npx commitlint before each commit.
+
 ## [0.0.1] - 08/08/2024
 
 ### Added
@@ -23,5 +33,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `.editorconfig` file with IDE level text, code, and file formatting configurations.
 - `.husky` directory with Git pre-commit and commit-msg hooks.
 
-[unreleased]: https://github.com/mister-fix/threadfork/compare/v0.0.1...HEAD
+[unreleased]: https://github.com/mister-fix/threadfork/compare/v0.0.2...HEAD
+[0.0.2]: https://github.com/mister-fix/threadfork/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/mister-fix/threadfork/releases/tag/v0.0.1
