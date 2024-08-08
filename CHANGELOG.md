@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.5] - 08/08/2024
+
+### Added
+
+- `.github/ISSUE_TEMPLATE` folder containing bug report and feature request templates.
+
 ## [0.0.4] - 08/08/2024
 
 ### Added
@@ -54,7 +60,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `.editorconfig` file with IDE level text, code, and file formatting configurations.
 - `.husky` directory with Git pre-commit and commit-msg hooks.
 
-[unreleased]: https://github.com/mister-fix/threadfork/compare/v0.0.4...HEAD
+[unreleased]: https://github.com/mister-fix/threadfork/compare/v0.0.5...HEAD
+[0.0.5]: https://github.com/mister-fix/threadfork/compare/v0.0.4...v0.0.5
 [0.0.4]: https://github.com/mister-fix/threadfork/compare/v0.0.3...v0.0.4
 [0.0.3]: https://github.com/mister-fix/threadfork/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/mister-fix/threadfork/compare/v0.0.1...v0.0.2
