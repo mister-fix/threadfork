@@ -1,0 +1,17 @@
+{
+  "name": "threadfork",
+  "description": "A comprehensive IT ticket management system designed to streamline the process of reporting, tracking, and resolving IT issues.",
+  "version": "0.0.1",
+  "private": true,
+  "author": "@mister-fix <https://github.com/mister-fix/>",
+  "license": "GPL-3.0-only",
+  "keywords": [],
+  "scripts": {
+    "prepare": "husky || true"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.4.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "husky": "^9.1.4"
+  }
+}
