@@ -1,7 +1,7 @@
 {
   "name": "threadfork",
   "description": "A comprehensive IT ticket management system designed to streamline the process of reporting, tracking, and resolving IT issues.",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "type": "commonjs",
   "private": true,
   "author": "@mister-fix <https://github.com/mister-fix/>",
@@ -26,5 +26,12 @@
     "husky": "^9.1.4",
     "plop": "^4.0.1",
     "prettier": "3.3.3"
-  }
+  },
+  "workspaces": [
+    "apps/api",
+    "apps/api-e2e",
+    "apps/client",
+    "apps/client-e2e",
+    "apps/shared"
+  ]
 }
