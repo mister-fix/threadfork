@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0] - 08/08/2024
+
+### Added
+
+- **Workspaces**: Integrated `npm` workspaces for improved project structure and dependency management. Workspaces are found in the added `apps/` folder.
+  - `api`: Workspace for the API server, contains `package.json` file.
+  - `api-e2e`: Workspace for API end-to-end tests, contains `package.json` file.
+  - `client`: Workspace for the client application, contains `package.json` file.
+  - `client-e2e`: Workspace for client end-to-end tests, contains `package.json` file.
+  - `shared`: Workspace for shared utilities and components, contains `package.json` file.
+- `tag-message.txt` ignore pattern in the `.gitignore` file.
+
+### Updated
+
+- `README.md` project structure tree to reflect the `apps/` folder and the project workspaces contained within.
+
 ## [0.0.7] - 08/08/2024
 
 ### Added
@@ -85,7 +101,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `.editorconfig` file with IDE level text, code, and file formatting configurations.
 - `.husky` directory with Git pre-commit and commit-msg hooks.
 
-[unreleased]: https://github.com/mister-fix/threadfork/compare/v0.0.7...HEAD
+[unreleased]: https://github.com/mister-fix/threadfork/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/mister-fix/threadfork/compare/v0.0.7...v0.1.0
 [0.0.7]: https://github.com/mister-fix/threadfork/compare/v0.0.6...v0.0.7
 [0.0.6]: https://github.com/mister-fix/threadfork/compare/v0.0.5...v0.0.6
 [0.0.5]: https://github.com/mister-fix/threadfork/compare/v0.0.4...v0.0.5
