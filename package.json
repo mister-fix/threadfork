@@ -1,7 +1,7 @@
 {
   "name": "threadfork",
   "description": "A comprehensive IT ticket management system designed to streamline the process of reporting, tracking, and resolving IT issues.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": true,
   "author": "@mister-fix <https://github.com/mister-fix/>",
   "license": "GPL-3.0-only",
