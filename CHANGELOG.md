@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 08/09/2024
+
+### Added
+
+- Installed `express` and set up a basic server configuration in the `api` workspace.
+  - Set the `index.js` as the server entry point.
+  - Installed `nodemon` to streamline the development process with automatic server restarts on file changes.
+  - Installed `dotenv` to manage environment variables securely across different environments.
+- Server start command in the root `package.json` file, and the `api` workspaces' `package.json` file.
+- "Built With" section to the README.md file, which contains list of packages and dependencies used to develop the project.
+  - Added Node and Express to list.
+
 ## [0.1.0] - 08/08/2024
 
 ### Added
@@ -101,7 +113,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `.editorconfig` file with IDE level text, code, and file formatting configurations.
 - `.husky` directory with Git pre-commit and commit-msg hooks.
 
-[unreleased]: https://github.com/mister-fix/threadfork/compare/v0.1.0...HEAD
+[unreleased]: https://github.com/mister-fix/threadfork/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/mister-fix/threadfork/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/mister-fix/threadfork/compare/v0.0.7...v0.1.0
 [0.0.7]: https://github.com/mister-fix/threadfork/compare/v0.0.6...v0.0.7
 [0.0.6]: https://github.com/mister-fix/threadfork/compare/v0.0.5...v0.0.6
