@@ -42,6 +42,11 @@ threadfork/
 ├─ README.md
 ```
 
+## Built With
+
+- [Node.js](https://nodejs.org/) - JavaScript runtime and server environment.
+- [Express.js](https://expressjs.com/) - Backend and Node.js framework.
+
 ## Author
 
 Created and maintained by [@mister-fix].
